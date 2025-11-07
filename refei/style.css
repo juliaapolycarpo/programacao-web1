@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.botao {
+  justify-content: center;
+  width: 100%;
+}
+
+.menun {
+  all: unset;
+  background-color: rgb(195, 34, 34);
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.textos {
+  width: 50%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.infos img {
+  width: 100%;
+  display: block;
+}
+.prop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 25%;
+}
+
+.prop img {
+  width: 100%;
+}
+
+.prop a {
+  display: inline-block;
+  width: 100%;
+}
+
+.infos .textos {
+  padding: 40px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: large;
+}
+
+.menun:hover {
+  background-color: white;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menuzinho {
+  display: none;
+  position: absolute;
+  font-size: 15px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  min-width: fit-content;
+  z-index: 0;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+footer{
+  padding: 25px;
+  background-color: rgb(172, 15, 15);
+  text-align: center;
+}
+.menuzinho a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: background-color 0.3s;
+}
+
+.menuzinho a:hover {
+  background-color: white
+}
+
+.menu:hover .menuzinho {
+  display: block;
+}
+
+nav {
+  background-color: rgb(184, 0, 0);
+  width: 100%;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.botao ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  width: 100%;
+}
+
+.barra a:link,
+a:visited {
+  background-color: rgb(184, 0, 0);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.barra a:hover,
+a:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s;
+}
+.infosr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 20px;
+
+}
+.infosr img {
+  width: 40%;
+}
+.imgg{
+  display: block;
+  height: auto;
+  flex: 1;
+}
+.infosr a{
+  display: inline-block;
+  width: auto;
+}
+.infosr a img{
+  width: 100%;
+  height: auto;
+}
+.infosr .textosr {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  box-sizing: border-box;
+}
