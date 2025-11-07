@@ -1,0 +1,209 @@
+\* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+body {
+  padding-top: 130px;
+}
+
+p {
+  font-size: large;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.textos {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 15px;
+}
+
+.imagem div {
+  width: 30%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.barra {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menun {
+  all: unset;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(245, 221, 86);
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.menun:hover {
+  background-color: white;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.contmenu {
+  display: none;
+  position: absolute;
+  font-size: 12.5px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: fit-content;
+  z-index: 0;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+.contmenu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: background-color 0.3s;
+}
+
+.contmenu a:hover {
+  background-color: white
+}
+
+.menu:hover .contmenu {
+  display: block;
+}
+
+.referencias {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.ref {
+  background-color: rgb(245, 221, 86);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ref h2 {
+  margin-bottom: 10px;
+}
+
+.ref p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ref a {
+  color: black;
+  text-decoration: underline;
+}
+
+.texto div {
+  width: 30%;
+  background-color: rgb(245, 221, 86);
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.infos img {
+  width: 35%;
+  border-radius: 10px;
+}
+
+.infos .textog {
+  width: 50%;
+  background-color: rgb(245, 221, 86);
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(245, 221, 86);
+  width: 100%;
+}
+
+.botao ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  width: 100%;
+}
+
+a:link,
+a:visited {
+  background-color: rgb(245, 221, 86);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s;
+}
